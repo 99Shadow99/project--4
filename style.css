@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+ font-family:"Gilroy Light" ;
+    box-sizing: border-box;
+
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+width: 100%;
+height: 100vh;
+
+}
+
+
+#back{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(238, 127, 255);
+    }
+   #back img{
+    width: 100%;
+    height: 100%;
+   } 
+
+
+#top{
+    pointer-events: none;
+position: absolute;
+top: 0;
+left: 0;
+    width: 100%;
+    height: 100vh;
+  
+    }
+    #workingarea{
+        position: relative;
+        margin: 0 auto;
+        width: 80%;
+        height: 100vh;
+        max-width: 1920px;
+      border: 1px solid rgb(0, 0, 0);
+    }
+    #nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 40px 0;
+    }
+    #nav img {
+        height: 60px;
+    }
+#nleft,#nright{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+
+    #nav a{
+        pointer-events: all;
+color: #fff;
+font-family: "Gilroy Light";
+text-decoration: none;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 600;
+    }
+
+    #hero{
+        display: flex;
+        position: absolute;
+        top: 50%;
+        transform: translate(0%,-50%);
+        left: 0;
+        justify-content: space-between;
+        width: 100%;
+       
+       
+    }
+    #heroleft{
+min-width: 50%;
+
+
+    }
+    
+
+     #heroleft .elem{
+        position: relative;
+overflow: hidden;
+
+        height: 9vw;
+     
+     }   
+     #hero .elem h1:nth-child(1){
+top: 0;
+
+     }      
+#hero .elem h1{
+    top: 100%;
+   left: 0;
+    position: absolute;
+    line-height: .9;
+    font-family: "Kajiro";
+    font-weight: 100;
+    font-size: 11vw;
+}
+#heroleft button{
+  
+    pointer-events: all;
+    padding: .8vw 3vw;
+    font-size: 3vw;
+    margin-top: 2vw;
+    font-family: "kajiro";
+}
+
+
+#heroright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   width: 17%;
+
+        }
+
+#heroright p{
+color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: right;
+}
+#heroright #imagediv{
+    width: 100%;
+height: 170px;
+margin-top: 20px;
+margin-bottom: 30px;
+    background-color: blueviolet;
+background-image: url(https://images.unsplash.com/photo-1527203561188-dae1bc1a417f?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8);
+background-size: cover;
+background-position: center;
+}
+
+
+#heroright p:nth-child(3){
+    margin-bottom: 100px;
+ 
+}
